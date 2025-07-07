@@ -17,6 +17,8 @@ exports.getProductById = async (req, res) => {
     }
     res.json(product);
   } catch (error) {
+    //error get
+    res.status
     res.status(500).json({ message: error.message });
   }
 };
