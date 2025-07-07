@@ -55,7 +55,7 @@ const generateInvoice = async (order) => {
   
   y -= lineHeight;
   
-  page.drawText(`Name: ${order.customer_name || 'Walk-in Customer'}`, {
+  page.drawText(`Name: ${order.customer_name }`, {
     x: margin,
     y,
     size: 12,
